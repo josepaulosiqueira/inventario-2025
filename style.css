@@ -1,0 +1,224 @@
+h1{
+    font-style:italic;
+    text-align:left;
+    padding: 5px;
+    position: relative;
+    background-color:#074483;
+    color:whitesmoke;
+    align-content: center;
+    height: 50px;
+    width: 713px;
+    }
+
+    img{
+        position: absolute;
+        background-color: aliceblue;
+        width: 120px;
+        height: 45px;
+        top: 5px;        
+        right: 5px; 
+        padding: 2px;
+       
+       }
+
+h3{
+    font-style:italic;
+    text-align: left;
+    padding: 3px;
+    position: relative;
+    background-color:#074483;
+    color:whitesmoke;
+    align-content: center;
+    height: 20px;
+    
+
+
+
+}
+
+
+
+    #ob{
+         font-style:italic;
+        font-size: 12pt;
+        text-align:left;
+       
+        display:inline-block;
+        border-right:3px;
+        padding: 5px;
+        position:relative;
+        background-color:aliceblue;
+        color:black;
+        align-content:baseline;
+        width: 700px;
+
+    }
+
+    p{
+    
+        font-style:italic;
+        font-size: 12pt;
+        text-align:center;
+       
+        display:inline-block;
+        border-right:3px;
+        padding: 5px;
+        position:relative;
+        background-color:#074483;
+        color:whitesmoke;
+        align-content:baseline;
+        width: 720px;
+        height: 15px;
+    }
+    .error-message{
+    
+        color: red;
+        font-size: 12px;
+        display: none;
+    
+    }
+        
+    button{
+    
+        font-style:italic;
+        background-color:#ffffff;
+        text-align:center;
+        color:darkgrey;
+        border:#031f3a;
+        border-radius: 6px;
+        cursor: pointer;
+      
+        width: 35px;
+        height: 35px;
+        transition: 0.3s ease;
+        
+    }
+    
+    button:hover{
+    
+        transform: scale(1.1);
+    }
+    button:focus{
+    
+        outline: none;
+    }
+
+   
+      .coluna{
+        font-style:italic;
+
+        text-align:left;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-columns:3fr 3fr 3fr ;
+      
+      }
+      
+    
+    .container{
+        
+       
+        font-style:italic;
+        text-align: left;
+        padding: 0px;
+        background-color:rgb(236, 231, 225);
+        padding-top: 0;
+        position: relative;
+        width: 720px;
+        height: 900px;
+          } 
+    
+   
+    
+    input{
+        font-style:italic;
+        text-align:center;
+        display:block;
+        background-color:transparent;
+        border-radius: 6px;
+        padding-top: 10;
+        padding: 2px;
+        border-right:1px;
+        width: 100px;
+        
+    }
+    span{
+        font-style:italic;
+        font-size: 10pt;
+        border-left: 5px;
+        font-style:italic;
+        padding-top: 2px;
+        text-align:left;
+        padding: 2px;
+        
+    }
+    select{
+        font-style:italic;
+        text-align:center;
+        background-color:darkgrey;
+        border-radius: 1px;
+        padding: 10px;
+        padding-top: 10px;
+        border-right:10px;
+        width: 100px;
+        
+    }
+   
+/* Reponsividade */
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+        width: auto;
+    }
+    
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .container, .coluna{
+        width: auto;
+        padding: 5px;
+    }
+
+    input, select, textarea {
+        width: 90%;
+        padding: 8px;
+        margin: 5px 0;
+       
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    .coluna {
+        grid-template-columns: 1fr;
+    }
+
+    #ob {
+        width: 100%; /* Ocupa toda a largura disponível */
+        max-width: 100%; /* Largura máxima ajustável */
+        padding: 10px; /* Espaçamento interno */
+        box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+        resize: vertical; /* Permite redimensionamento vertical */
+        font-size: 12px; /* Tamanho da fonte */
+        line-height: 1.5; 
+    }
+    
+}
+
+.hidden-during-pdf {
+    display: none !important;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
