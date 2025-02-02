@@ -9,64 +9,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
-<body>
+ <body>
+  <div class="conteudoPdf" id="conteudoPdf">  
+  <main class="container">
+    <h2>Inventário de Produtos Químicos 2025 <img src="./image/new2.webp" alt="Circular"></h2>
+      <div class="coluna">
+         <span>Data: <input type="date" placeholder="Data" id="data" name="data"/></span>
+         <span>Semana: <input type="number" placeholder="Semana" id="semana" name="semana"/></span>
 
-<form id="myForm">
-    <h1>Inventário de Produtos Químicos 2025 <img src="./image/new2.webp" alt="Circular"></h1>
-
-    <div class="container">  
-        <div class="coluna">
-            <span>Data: <input type="date" placeholder="Data" id="data" name="data"/></span>
-            <span>Semana: <input type="number" placeholder="Semana" id="semana" name="semana"/></span>
-        </div> 
-
-        <h3>Estoque de produtos químicos do ETE</h3>
-
-        <div class="coluna">   
-            <span>POLICLORETO DE ALUMINIO: <input type="number" placeholder="Qtde" id="pac" name="pac"> Litros</span>
-            <span>Tanque1 <input type="number" placeholder="Valor" id="tanque1" name="tanque1"></span>
-            <span>Tanque2 <input type="number" placeholder="Valor" id="tanque2" name="tanque2"></span>
+       </div> 
+   
+    
+    
+          <div class="boxes">
+            <div class = "box1"> 
+           
+              <form action ="#" id="myForm"> 
+                <fieldset class="b1">
+                
+                  <legend> <H3>Estoque de produtos químicos ETA e ETE</H3></legend>
+                    <div class="form-group"></div>
+              
+                      <div class="coluna">
+                    
+                
+                 
+                         <span>POLICLORETO DE ALUMINIO: <input type="number" placeholder="Qtde" id="pac" name="pac"> Litros</span>
+                         <span>Tanque1 <input type="number" placeholder="Valor" id="tanque1" name="tanque1"></span>
+                         <span>Tanque2 <input type="number" placeholder="Valor" id="tanque2" name="tanque2"></span>
+              
             
+            
+                    </div>
+        
+       
+
+  
+
+                         <div class="coluna"> 
+          
+                             <span>HIPOCLORITO DE SÓDIO: <input type="number" placeholder="Qtde" id="cloro" name="cloro"> Litros</span>
+                             <span>HIDRÓXIDO DE SÓDIO: <input type="number" placeholder="Qtde" id="soda" name="soda"> Litros</span>
+                             <span>ACIDO SULFÚRICO: <input type="number" placeholder="Qtde" id="sulf" name="sulf"> Litros</span>
+                             <span>POLIMERO CATIONICO HEFLU: <input type="number" placeholder="Qtde" id="pol" name="pol"> Kilos</span>
+                             <span>SAL GROSSO SEM IODO: <input type="number" placeholder="Qtde" id="sal" name="sal"> Kilos</span>
+                             <span>ANTIESPUMANTE DENINCOL: <input type="number" placeholder="Qtde" id="ant" name="ant"> Litros</span>
+        
+                        </div>   
+   
+            </div> 
         </div>
 
-        <div class="coluna">
-            <span>HIPOCLORITO DE SÓDIO: <input type="number" placeholder="Qtde" id="cloro" name="cloro"> Litros</span>
-            <span>HIDRÓXIDO DE SÓDIO: <input type="number" placeholder="Qtde" id="soda" name="soda"> Litros</span>
-            <span>ACIDO SULFÚRICO: <input type="number" placeholder="Qtde" id="sulf" name="sulf"> Litros</span>
-            <span>POLIMERO CATIONICO HEFLU: <input type="number" placeholder="Qtde" id="pol" name="pol"> Kilos</span>
-            <span>SAL GROSSO SEM IODO: <input type="number" placeholder="Qtde" id="sal" name="sal"> Kilos</span>
-            <span>ANTIESPUMANTE DENINCOL: <input type="number" placeholder="Qtde" id="ant" name="ant"> Litros</span>
-        </div>
+                             <main class="container2">
+                               <div class="box2">
+                                  <fieldset class="b3">
+                                    <legend><h3>Estoque de produtos da Ilha Química</h3></legend>
+                                      <div class="form-group"></div>
 
-        <h3>Estoque de produtos da Ilha Química</h3>
-        <div class="coluna">
-            <span>ALKALINE: <input type="text" placeholder="Qtde" id="ilhaSoda" name="ilhaSoda"> Litros</span> 
-            <span>Tanque1 <input type="number" placeholder="Valor" id="tanq1" name="tanq1"></span>
-            <span>Tanque2 <input type="number" placeholder="Valor" id="tanq2" name="tanq2"></span>
-        </div>
+       
+                
+             
+                  
+                
+       
+                                        <div class="coluna"> 
+            
+                                          <span>ALKALINE: <input type="text" placeholder="Qtde" id="ilhaSoda" name="ilhaSoda"> Litros</span> 
+                                          <span>Tanque1 <input type="number" placeholder="Valor" id="tanq1" name="tanq1"></span>
+                                          <span>Tanque2 <input type="number" placeholder="Valor" id="tanq2" name="tanq2"></span>
+             
+            
+                    
+                                              <span>MASTER FLASH: <input type="number" placeholder="Qtde" id="detergente" name="detergente"> Litros</span>
+                                              <span>IX 501: <input type="number" placeholder="Qtde" id="peroxido" name="peroxido"> Litros</span>
+                                              <span>SOURMAX: <input type="number" placeholder="Qtde" id="neu1" name="neu1"> Litros</span>
+                                              <span>STAIN OUT: <input type="number" placeholder="Qtde" id="stain" name="stain"> Litros</span>
+                                              <span>BEIBLANC HAD: <input type="number" placeholder="Qtde" id="had" name="had"> Litros</span>
+                                              <span> HIPOCLORITO DE SÓDIO: <input type="number" placeholder="Qtde" id="cloro" name="cloro"> Litros</span>
+                                              <span>RUST: <input type="number" placeholder="Qtde" id="removedorFerrugem" name="removedorFerrugem"> Litros</span>
+                                              <span>BAC HEALTH: <input type="number" placeholder="Qtde" id="bac" name="bac"> Litros</span>
+                                              <span>UNIVERSAL: <input type="number" placeholder="Qtde" id="univ" name="univ"> Litros</span>
+                                              <span><button type="submit" id="PDF"><i class="fa-solid fa-file-pdf" style="color: #D90416; font-size: 28px;"></i></button></span>
+         
+                                         </div> 
+       
+                                        </div>
+       
+                                     </div>
+                                </div> 
+                                                 <fieldset class="b2">
+                                                   <legend><h3>Observação:</h3></legend>
+                                                      <textarea name="observacao" id="ob" cols="80" rows="10"></textarea>
+                       <div>jose.siqueira@elis.com</div></div>
+                    </fieldset>
+         
+                        
+    
+                          
+            
+            </fieldset> 
+       
+    </fieldset> 
+  </form>
 
-        <div class="coluna">
-            <span>MASTER FLASH: <input type="number" placeholder="Qtde" id="detergente" name="detergente"> Litros</span>
-            <span>IX 501: <input type="number" placeholder="Qtde" id="peroxido" name="peroxido"> Litros</span>
-            <span>SOURMAX: <input type="number" placeholder="Qtde" id="neu1" name="neu1"> Litros</span>
-            <span>STAIN OUT: <input type="number" placeholder="Qtde" id="stain" name="stain"> Litros</span>
-            <span>BEIBLANC HAD: <input type="number" placeholder="Qtde" id="had" name="had"> Litros</span>
-            <span> HIPOCLORITO DE SÓDIO: <input type="number" placeholder="Qtde" id="cloro" name="cloro"> Litros</span>
-            <span>RUST: <input type="number" placeholder="Qtde" id="removedorFerrugem" name="removedorFerrugem"> Litros</span>
-            <span>BAC HEALTH: <input type="number" placeholder="Qtde" id="bac" name="bac"> Litros</span>
-            <span>UNIVERSAL: <input type="number" placeholder="Qtde" id="univ" name="univ"> Litros</span>
-            <span><button type="submit" id="PDF"><i class="fa-solid fa-file-pdf" style="color: #D90416; font-size: 28px;"></i></button></span>
-         </div>
-
-        <label for="ob">Observação</label>
-        <textarea name="observacao" id="ob" cols="80" rows="10"></textarea>
-        <div>jose.siqueira@elis.com</div>
-    </div>
-</form>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    function updatePAC() {
+  </main>
+ </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+     function updatePAC() {
         let tanque1 = parseFloat(document.getElementById("tanque1").value) || 0;
         let tanque2 = parseFloat(document.getElementById("tanque2").value) || 0;
         //let tanque3 = parseFloat(document.getElementById("tanque3").value) || 0;
@@ -87,53 +137,49 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById("tanq1").addEventListener("input", updateSoda);
     document.getElementById("tanq2").addEventListener("input", updateSoda);
-});
+ });
 
-  document.getElementById("PDF").addEventListener("click", function(event) {
-    event.preventDefault();
-    console.log("PDF button clicked");
-    generatePDF();
-});
+ document.getElementById("PDF").addEventListener("click", function (event) {
+    event.preventDefault(); // Previne comportamento padrão do botão
+    generatePDF(); // Chama a função de gerar o PDF
+ });
 
-async function generatePDF() {
-    // Obtém o elemento do campo de data
-    const dataInput = document.getElementById("data");
-    const dataOriginal = dataInput.value;
-
-    // Verifica se a data está preenchida
-    if (dataOriginal) {
-        // Converte a data no formato brasileiro
-        const [year, month, day] = dataOriginal.split("-");
-        const dataFormatada = `${day}/${month}/${year}`;
-
-        // Substitui o valor do campo de data temporariamente
-        const dataSpan = document.createElement("span");
-        dataSpan.textContent = `Data: ${dataFormatada}`;
-        dataSpan.style.display = "block"; // Para garantir que seja visível no PDF
-        dataInput.style.display = "none"; // Oculta o campo original
-        dataInput.parentElement.appendChild(dataSpan);
-
-        // Gera o PDF
-        await html2pdf().from(document.body).set({
-            margin: 0.2,
-            filename: `Inventário_Semana_${document.getElementById("semana").value || "N/A"}.pdf`,
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2, useCORS: true },
-            jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
-        }).save();
-
-        // Remove o elemento temporário e restaura o campo original
-        dataSpan.remove();
-        dataInput.style.display = "inline";
-    } else {
-        alert("Por favor, insira uma data antes de gerar o PDF.");
-    }
-}
-
-
+ function generatePDF() {
+     // Captura o contêiner principal
+     const conteudoPdf = document.getElementById("conteudoPdf");
+     const semanaInput = document.getElementById("semana").value || "N/A";
+     const conteudoPDF = document.body; // Troque para `document.getElementById("seuID")` se necessário
+     const pageWidth = 11.7; // Largura em polegadas
+     const pageHeight = 8.3; // Altura em polegadas
+     //Configura o html2pdf
+     const opcoes = {
+        margin: 0.2, // Ajuste da margem
+        filename: `inventario_semana_${semanaInput}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true }, // Renderização de alta qualidade
+        jsPDF: { unit: "in", format: "a4", orientation: "portrait" }
+    };
     
-</script>
+
+    //Adiciona classe para ocultar botões antes de gerar o PDF
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(botao => botao.classList.add("hidden-during-pdf"));
+
+    // Gera e salva o PDF
+    html2pdf()
+        .set(opcoes)
+        .from(conteudoPDF)
+        .save()
+        .then(() => {
+            // Remove a classe para exibir os botões novamente
+            botoes.forEach(botao => botao.classList.remove("hidden-during-pdf"));
+        });
+ }
+    
+ </script>
 
 </body>
 </html>
+
+
 
